@@ -6,3 +6,13 @@
 //
 
 import Foundation
+import SwiftUI
+
+class SelectorColor {
+    
+    private var colors: [Color] = [.blue, .cyan, .gray, .green, .indigo, .mint, .orange, .pink, .purple, .red]
+    
+    func getColorRandom() -> Color {
+        return self.colors.randomElement() ?? .blue
+    }
+}
