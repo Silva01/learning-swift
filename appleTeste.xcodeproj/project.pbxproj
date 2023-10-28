@@ -49,6 +49,7 @@
 		47818F6A2AEDAF39006C6115 /* appleTesteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appleTesteUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		47A29D022AEDC6F8008FE989 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
 		47A29D062AEDCD78008FE989 /* SelectorColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectorColor.swift; sourceTree = "<group>"; };
+		47A29D082AEDCEDD008FE989 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +80,7 @@
 		47818F402AEDAF38006C6115 = {
 			isa = PBXGroup;
 			children = (
+				47A29D082AEDCEDD008FE989 /* README.md */,
 				47818F4B2AEDAF38006C6115 /* appleTeste */,
 				47818F5D2AEDAF39006C6115 /* appleTesteTests */,
 				47818F672AEDAF39006C6115 /* appleTesteUITests */,
