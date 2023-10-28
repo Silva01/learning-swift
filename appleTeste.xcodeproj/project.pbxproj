@@ -15,6 +15,7 @@
 		47818F692AEDAF39006C6115 /* appleTesteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47818F682AEDAF39006C6115 /* appleTesteUITests.swift */; };
 		47818F6B2AEDAF39006C6115 /* appleTesteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47818F6A2AEDAF39006C6115 /* appleTesteUITestsLaunchTests.swift */; };
 		47A29D032AEDC6F8008FE989 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A29D022AEDC6F8008FE989 /* Activity.swift */; };
+		47A29D072AEDCD78008FE989 /* SelectorColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A29D062AEDCD78008FE989 /* SelectorColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		47818F682AEDAF39006C6115 /* appleTesteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appleTesteUITests.swift; sourceTree = "<group>"; };
 		47818F6A2AEDAF39006C6115 /* appleTesteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appleTesteUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		47A29D022AEDC6F8008FE989 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		47A29D062AEDCD78008FE989 /* SelectorColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectorColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				47818F552AEDAF39006C6115 /* appleTeste.entitlements */,
 				47818F522AEDAF39006C6115 /* Preview Content */,
 				47A29D022AEDC6F8008FE989 /* Activity.swift */,
+				47A29D062AEDCD78008FE989 /* SelectorColor.swift */,
 			);
 			path = appleTeste;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			files = (
 				47A29D032AEDC6F8008FE989 /* Activity.swift in Sources */,
 				47818F4F2AEDAF38006C6115 /* ContentView.swift in Sources */,
+				47A29D072AEDCD78008FE989 /* SelectorColor.swift in Sources */,
 				47818F4D2AEDAF38006C6115 /* appleTesteApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

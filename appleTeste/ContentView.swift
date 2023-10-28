@@ -9,11 +9,10 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private var selected = "Baseball"
-    
     @State private var id = 1
     
     private var activity: Activity = Activity()
+    private var color: SelectorColor = SelectorColor()
     
     var colors: [Color] = [.blue, .cyan, .gray, .green, .indigo, .mint, .orange, .pink, .purple, .red]
     
@@ -25,7 +24,7 @@ struct ContentView: View {
             
             VStack {
                 Circle()
-                    .fill(colors.randomElement() ?? .blue)
+                    .fill(color.getColorRandom())
                     .padding()
                     .overlay(Image(systemName:"figure.\(activity.getActivitySelected().lowercased())")
                         .font(.system(size: 144)).foregroundColor(.white))
